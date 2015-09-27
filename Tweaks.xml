@@ -9,7 +9,7 @@
     <contributor>AR2186 @ xda-developers</contributor>
     <contributor>Pen4iK @ 4pda.ru</contributor>
   </contributors>
-  <tweak category="Wide Screen" name="sHack for 5 inches screen or less to have 5 actions buttons, like Nokia 1520" type="toggle" description="For All Type" comparer="==" reboot="true">
+  <tweak category="Wide Screen" name="Hack for 5 inches screen or less to have 5 actions buttons, like Nokia 1520" type="toggle" description="For All Type" comparer="==" reboot="true">
     <entry path="HKLM\SYSTEM\Platform\DeviceTargetingInfo" name="PhoneManufacturerModelName" type="string">
       <value>RM-938_1000</value>
     </entry>
