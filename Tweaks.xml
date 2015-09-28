@@ -9,6 +9,7 @@
     <contributor>AR2186 @ xda-developers</contributor>
     <contributor>Pen4iK @ 4pda.ru</contributor>
   </contributors>
+ 
   <tweak category="Wide Screen" name="Hack for 5 inches screen or less to have 5 actions buttons, like Nokia 1520" type="toggle" description="For All Type" comparer="==" reboot="true">
     <entry path="HKLM\SYSTEM\Platform\DeviceTargetingInfo" name="PhoneManufacturerModelName" type="string">
       <value>RM-938_1000</value>
@@ -25,7 +26,7 @@
 	  <value name="Nokia 530">RM-1019</value>
 	</entry>
 	</tweak>
-<tweak category="Wide Screen" name="Revert Back - Nokia 6xx" type="enum" reboot="true">
+ <tweak category="Wide Screen" name="Revert Back - Nokia 6xx" type="enum" reboot="true">
    <entry path="HKLM\SYSTEM\Platform\DeviceTargetingInfo" name="PhoneManufacturerModelName" type="string">
 	  <value name="Nokia 620">RM-846</value>
 	  <value name="Nokia 625 EU">RM-941</value>
@@ -69,122 +70,119 @@
 	  <value name="Nokia Icon">RM-927</value>
 	  </entry>
   </tweak>	
-  <tweak category="Wide Screen" name="Revert Back - Nokia 1xxx" type="enum" reboot="true">
+ <tweak category="Wide Screen" name="Revert Back - Nokia 1xxx" type="enum" reboot="true">
    <entry path="HKLM\SYSTEM\Platform\DeviceTargetingInfo" name="PhoneManufacturerModelName" type="string">
 	  <value name="Nokia 1020 EU">RM-875</value>
 	  <value name="Nokia 1020 CHINA">RM-876</value>
 	  <value name="Nokia 1020 USA">RM-877</value>
 	</entry>
-	</tweak>
-<tweak category="SysTray Tweak" name="Change Name of the Data Connection on systray - 1XRTT" type="input" reboot="true">
+ </tweak>
+
+ <tweak category="SysTray Tweak" name="Change Name of the Data Connection on systray - 1XRTT" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="1XRTT" type="string" default="1X"/>
-</tweak>
-<tweak category="SysTray Tweak" name="1XRTT_DEFAULT" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="1XRTT_DEFAULT" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="1XRTT_DEFAULT" type="string" default="1X"/>
-</tweak>
-<tweak category="SysTray Tweak" name="EVDO_DEFAULT" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="EVDO_DEFAULT" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="EVDO_DEFAULT" type="string" default="DO"/>
-</tweak>
-<tweak category="SysTray Tweak" name="EVDO_REV0" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="EVDO_REV0" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="EVDO_REV0" type="string" default="DO"/>
-</tweak>
-<tweak category="SysTray Tweak" name="EVDO_REVA" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="EVDO_REVA" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="EVDO_REVA" type="string" default="DO"/>
-</tweak>
-<tweak category="SysTray Tweak" name="EVDO_REVB" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="EVDO_REVB" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="EVDO_REVB" type="string" default="DO"/>
-</tweak>
-<tweak category="SysTray Tweak" name="GSM_DEFAULT" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="GSM_DEFAULT" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="GSM_DEFAULT" type="string" default="G"/>
-</tweak>
-<tweak category="SysTray Tweak" name="GSM_EDGE" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="GSM_EDGE" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="GSM_EDGE" type="string" default="E"/>
-</tweak>
-<tweak category="SysTray Tweak" name="GSM_GPRS" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="GSM_GPRS" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="GSM_GPRS" type="string" default="G"/>
-</tweak>
-<tweak category="SysTray Tweak" name="LTE_DEFAULT" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="LTE_DEFAULT" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="LTE_DEFAULT" type="string" default="L"/>
-</tweak>
-<tweak category="SysTray Tweak" name="LTE_FDD" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="LTE_FDD" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="LTE_FDD" type="string" default="L"/>
-</tweak>
-<tweak category="SysTray Tweak" name="LTE_TDD" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="LTE_TDD" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="LTE_TDD" type="string" default="L"/>
-</tweak>
-<tweak category="SysTray Tweak" name="TDSCDMA_DC_HSPAPLUS" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="TDSCDMA_DC_HSPAPLUS" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="TDSCDMA_DC_HSPAPLUS" type="string" default="H+"/>
-</tweak>
-<tweak category="SysTray Tweak" name="TDSCDMA_DEFAULT" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="TDSCDMA_DEFAULT" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="TDSCDMA_DEFAULT" type="string" default="T"/>
-</tweak>
-<tweak category="SysTray Tweak" name="TDSCDMA_HSDPA" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="TDSCDMA_HSDPA" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="TDSCDMA_HSDPA" type="string" default="H"/>
-</tweak>
-<tweak category="SysTray Tweak" name="TDSCDMA_HSPAPLUS" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="TDSCDMA_HSPAPLUS" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="TDSCDMA_HSPAPLUS" type="string" default="H+"/>
-</tweak>
-<tweak category="SysTray Tweak" name="TDSCDMA_HSUPA" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="TDSCDMA_HSUPA" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="TDSCDMA_HSUPA" type="string" default="H"/>
-</tweak>
-<tweak category="SysTray Tweak" name="TDSCDMA_UMTS" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="TDSCDMA_UMTS" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="TDSCDMA_UMTS" type="string" default="T"/>
-</tweak>
-<tweak category="SysTray Tweak" name="UMTS_DC_HSPAPLUS" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="UMTS_DC_HSPAPLUS" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="UMTS_DC_HSPAPLUS" type="string" default="H+"/>
-</tweak>
-<tweak category="SysTray Tweak" name="UMTS_DEFAULT" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="UMTS_DEFAULT" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="UMTS_DEFAULT" type="string" default="3G"/>
-</tweak>
-<tweak category="SysTray Tweak" name="UMTS_HSDPA" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="UMTS_HSDPA" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="UMTS_HSDPA" type="string" default="H"/>
-</tweak>
-<tweak category="SysTray Tweak" name="UMTS_HSPAPLUS" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="UMTS_HSPAPLUS" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="UMTS_HSPAPLUS" type="string" default="H+"/>
-</tweak>
-<tweak category="SysTray Tweak" name="UMTS_HSPAPLUS_64QAM" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="UMTS_HSPAPLUS_64QAM" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="UMTS_HSPAPLUS_64QAM" type="string" default="H+"/>
-</tweak>
-<tweak category="SysTray Tweak" name="UMTS_HSUPA" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="UMTS_HSUPA" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="UMTS_HSUPA" type="string" default="H"/>
-</tweak>
-<tweak category="SysTray Tweak" name="UMTS_UMTS" type="input" reboot="true">
+ </tweak>
+ <tweak category="SysTray Tweak" name="UMTS_UMTS" type="input" reboot="true">
 	<entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray\DataConnectionStrings" name="UMTS_UMTS" type="string" default="3G"/>
-</tweak>
-<tweak category="Camera" name="!!!!! BE CAREFUL when you using these tweaks !!!!! or use customPFD or hexadecimal calculator !" type="toggle" description="Number to write is in HEXADECIMAL with 8 numbers xxxxxxxx!!! this toggle doesn't work">	
+ </tweak>
+ 
+ <tweak category="Camera" name="!!!!! BE CAREFUL when you using these tweaks !!!!! or use customPFD or hexadecimal calculator !" type="toggle" description="Number to write is in HEXADECIMAL with 8 numbers xxxxxxxx!!! this toggle doesn't work">	
 	<entry path="" name="NOTHING" type="dword">
     </entry>
-</tweak>
-<tweak category="Camera" name="Front Facing Camera ISO" type="input" description="Update the Minimal ISO for FRONT camera">
+ </tweak>
+ <tweak category="Camera" name="Front Facing Camera ISO" type="input" description="Update the Minimal ISO for FRONT camera">
    <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\FFC\Caps" name="MinIso" type="string" default="100"/>
-</tweak>
-<tweak category="Camera" name="Front Facing Camera ISO" type="input" description="Update the Maximal ISO for FRONT camera">
+ </tweak>
+ <tweak category="Camera" name="Front Facing Camera ISO" type="input" description="Update the Maximal ISO for FRONT camera">
    <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\FFC\Caps" name="MaxIso" type="string" default="100"/>
-</tweak>  
-<tweak category="Camera" name="Front Facing Camera Shutter Speed" type="input" description="Update the Minimal Shutter Speed for FRONT camera">
+ </tweak>  
+ <tweak category="Camera" name="Front Facing Camera Shutter Speed" type="input" description="Update the Minimal Shutter Speed for FRONT camera">
     <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\FFC\Caps" name="MinET" type="string" default="100"/>
-</tweak>     
-<tweak category="Camera" name="Front Facing Camera Shutter Speed" type="input" description="Update the Maximal Shutter Speed for FRONT camera">
+ </tweak>     
+ <tweak category="Camera" name="Front Facing Camera Shutter Speed" type="input" description="Update the Maximal Shutter Speed for FRONT camera">
     <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\FFC\Caps" name="MaxET" type="string" default="100"/>
    </tweak>     
-<tweak category="Camera" name="Rear Facing Camera ISO" type="input" description="Update the Minimal ISO for REAR camera">
+ <tweak category="Camera" name="Rear Facing Camera ISO" type="input" description="Update the Minimal ISO for REAR camera">
     <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\RFC\Caps" name="MinIso" type="string" default="100"/>
-</tweak>	
-<tweak category="Camera" name="Rear Facing Camera ISO" type="input" description="Update the Maximal ISO for REAR camera">
+ </tweak>	
+ <tweak category="Camera" name="Rear Facing Camera ISO" type="input" description="Update the Maximal ISO for REAR camera">
     <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\RFC\Caps" name="MaxIso" type="string" default="100"/>
-</tweak>	
-<tweak category="Camera" name="Rear Facing Camera Shutter Speed" type="input" description="Update the Minimal Shutter Speed for REAR camera">
+ </tweak>	
+ <tweak category="Camera" name="Rear Facing Camera Shutter Speed" type="input" description="Update the Minimal Shutter Speed for REAR camera">
     <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\RFC\Caps" name="MinET" type="string" default="100"/>
-</tweak>	
-<tweak category="Camera" name="Rear Facing Camera Shutter Speed" type="input" description="Update the Maximal Shutter Speed for REAR camera">
+ </tweak>	
+ <tweak category="Camera" name="Rear Facing Camera Shutter Speed" type="input" description="Update the Maximal Shutter Speed for REAR camera">
     <entry path="HKLM\SOFTWARE\OEM\nokia\Camera\RFC\Caps" name="MaxET" type="string" default="100"/>
-</tweak>	
-  <tweak category="System" name="'Never' screen timeout option" type="toggle" description="Enable or disable 'Never' timeout (retoggle to activate WM10M)" comparer="==">
-    <entry path="HKLM\SOFTWARE\Microsoft\Settings\Lock" name="DisableNever" type="dword" default="1">
-      <value>0</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Start Screen Tweak" type="enum" description="Modify the number of small tiles on start Screen. Need reboot" reboot="true">
+ </tweak>	
+ <tweak category="User Interface" name="Start Screen Tweak" type="enum" description="Modify the number of small tiles on start Screen. Need reboot" reboot="true">
 	<entry path="HKLM\SOFTWARE\Microsoft\Shell\Start" name="TileColumnSize" type="dword" >
 		<value name="4 small tiles">4</value>
 		<value name="6 small tiles">6</value>
@@ -230,6 +228,174 @@
       <value name="High">72</value>
     </entry>
   </tweak>
+ <tweak category="User Interface" name="Boot screen logo" type="input" description="Change boot screen logo" helper="picture">
+    <entry path="HKEY_LOCAL_MACHINE\SYSTEM\Shell\BootScreens" name="WPBootScreenOverride" type="string" />
+ </tweak>
+   <tweak category="User Interface" name="Disable Start Menu Letters" type="toggle" reboot="true">
+    <entry path="HKLM\Software\Microsoft\Shell\Start" name="GroupingThreshold" type="dword" default="45" comparer="&gt;">
+      <value>1000</value>
+    </entry>
+  </tweak>
+    <tweak category="User Interface" name="Enable soft Back, Start and Search buttons" type="toggle">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="SoftwareModeEnabled" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="User Interface" name="Enable swipe up to hide on soft navbar" type="toggle">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsSwipeUpToHideEnabled" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="User Interface" name="Recent people in people hub" type="input">
+    <entry path="HKLM\Software\Microsoft\Pim\RecentList\8" name="MaxSize" type="dword" default="8" />
+  </tweak>
+   <tweak category="User Interface" name="Enable Double Tap Off on soft navbar" type="toggle">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsDoubleTapOffEnabled" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="User Interface" name="Color or Black on soft navbar" type="toggle">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="Color" type="dword" default="0">
+      <value>2</value>
+    </entry>
+  </tweak>
+  <tweak category="User Interface" name="Enable Auto Hide on soft navbar" type="toggle">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsAutoHideEnabled" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="User Interface" name="Enable Hint on soft navbar" type="toggle">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsHintEnabled" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="User Interface" name="Change default accent colors" type="color">
+    <entry path="HKLM\Software\Microsoft\Windows\CurrentVersion\Control Panel\Theme\Themes\0\Accents\0" name="Color" type="dword" />
+  </tweak>
+  <tweak category="User Interface" name="Change default complementary colors" description="(for dual SIM phones only)" type="color">
+    <entry path="HKLM\Software\Microsoft\Windows\CurrentVersion\Control Panel\Theme\Themes\0\Accents\0" name="ComplementaryColor" type="dword" />
+  </tweak>
+  
+ <tweak category="System" name="'Never' screen timeout option" type="toggle" description="Enable or disable 'Never' timeout (retoggle to activate WM10M)" comparer="==">
+    <entry path="HKLM\SOFTWARE\Microsoft\Settings\Lock" name="DisableNever" type="dword" default="1">
+      <value>0</value>
+    </entry>
+ </tweak>
+  <tweak category="System" name="Save maps to SD card" type="toggle">
+    <entry path="HKLM\System\Maps\Storage\" name="UseExternalStorage" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Use 64MB maps cache instead of 128MB" type="toggle">
+    <entry path="HKLM\System\Maps\Storage\" name="UseSmallerCache" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Disable FM radio option" type="toggle">
+    <entry path="HKLM\Software\Microsoft\FMRadio\OEM" name="NotPresent" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="Network" name="Enable Data Sense WiFI hotspots" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Data Sense" name="DSEnabled" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Allow disabling camera shutter sound" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Photos\OEM" name="ShutterSoundUnlocked" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Disable USB Control Panel" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Shell\USB" name="DisableUSBControlPanel" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Notify on weak charger" type="toggle">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\USB" name="NotifyOnWeakCharger" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Screen timeout (on battery)" type="enum" reboot="true">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\Timeouts" name="DCUserIdle" type="dword">
+      <value name="30 seconds">1e</value>
+      <value name="1 minute">3c</value>
+      <value name="3 minutes">b4</value>
+      <value name="5 minutes">12c</value>
+      <value name="15 minutes">384</value>
+      <value name="30 minutes">708</value>
+      <value name="Never">0</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Screen timeout (when charging)" type="enum" reboot="true">
+    <entry path="HKLM\SOFTWARE\Microsoft\Shell\Timeouts" name="ACUserIdle" type="dword">
+      <value name="30 seconds">1e</value>
+      <value name="1 minute">3c</value>
+      <value name="3 minutes">b4</value>
+      <value name="5 minutes">12c</value>
+      <value name="15 minutes">384</value>
+      <value name="30 minutes">708</value>
+      <value name="Never">0</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Limit volume on reboot" type="toggle" reboot="true">
+    <entry path="HKLM\Software\OEM\VolumeLimit" name="EnableVolumeLimit" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Volume limit on reboot" type="input">
+    <entry path="HKLM\Software\OEM\VolumeLimit" name="VolumeLimit" type="dword" min="0" max="1E" default="19">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Start key wakes up the screen" type="toggle" reboot="true">
+    <entry path="HKLM\System\Keyboard" name="EnableStartOnIdle" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+  <tweak category="System" name="Data Activity indicators" type="toggle" reboot="true">
+    <entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray" name="DataActivity" type="dword" default="0">
+      <value>1</value>
+    </entry>
+  </tweak>
+ <tweak category="System" name="Disable backlight for the hardware buttons" type="toggle">
+    <entry path="HKLM\SOFTWARE\OEM\Nokia\Display\ColorAndLight" name="UserSettingKeyLightsEnabled" type="dword" default="1">
+      <value>0</value>
+    </entry>
+ </tweak>
+ <tweak category="System" name="Full FS access" type="toggle">
+    <entry path="HKLM\Software\microsoft\mtp" name="datastore" type="string" default="C:\Data\Users\PUBLIC">
+      <value>c:</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp" name="ObjectName" type="string" default=".\WPNONETWORK">
+      <value>LocalSystem</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp" name="Type" type="dword">
+      <value>10</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp" name="ServiceSidType" type="dword">
+      <value>1</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Data0" type="binary">
+      <value>7508bca3290b900c</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Data1" type="binary">
+      <value>0000000001000000</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="DataType0" type="dword">
+      <value>1</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="DataType1" type="dword">
+      <value>1</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Guid" type="binary">
+      <value>16287a2d5e0cfc459ce7570e5ecde9c9</value>
+    </entry>
+    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Type" type="dword">
+      <value>7</value>
+    </entry>
+ </tweak>
+
   <tweak category="Cell" name="Hide highest speed selection" type="toggle">
     <entry path="HKLM\Software\Microsoft\Cellular\MVSettings\IMSISpecific\Default\CellUX" name="HideHighestSpeed" type="dword" default="0">
       <value>1</value>
@@ -285,39 +451,38 @@
       <value>7</value>
     </entry>
   </tweak>
-  <tweak category="User Interface" name="Boot screen logo" type="input" description="Change boot screen logo" helper="picture">
-    <entry path="HKEY_LOCAL_MACHINE\SYSTEM\Shell\BootScreens" name="WPBootScreenOverride" type="string" />
-  </tweak>
-  <tweak category="System" name="Save maps to SD card" type="toggle">
-    <entry path="HKLM\System\Maps\Storage\" name="UseExternalStorage" type="dword" default="0">
+  <tweak category="Cell" name="Enable SIM Contacts in People" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Contacts\Sim" name="EnableSIMAddressBookAndExport" type="dword" default="0">
       <value>1</value>
     </entry>
   </tweak>
-  <tweak category="System" name="Use 64MB maps cache instead of 128MB" type="toggle">
-    <entry path="HKLM\System\Maps\Storage\" name="UseSmallerCache" type="dword" default="0">
+  <tweak category="Cell" name="Unhide APN" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Cellular\MVSettings\IMSISpecific\Default\CellUX" name="HideAPN" type="dword" default="1">
+      <value>0</value>
+    </entry>
+  </tweak>
+  <tweak category="Cell" name="Unhide MMS APN" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Cellular\MVSettings\IMSISpecific\Default\CellUX" name="HideMMSAPN" type="dword" default="1">
+      <value>0</value>
+    </entry>
+  </tweak>
+  <tweak category="Cell" name="Hide SIM security UI" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Phone\Settings" name="HideSIMSecurityUI" type="dword" default="0">
       <value>1</value>
     </entry>
   </tweak>
-  <tweak category="System" name="Disable FM radio option" type="toggle">
-    <entry path="HKLM\Software\Microsoft\FMRadio\OEM" name="NotPresent" type="dword" default="0">
+ 
+  <tweak category="Cell" name="Unhide DTMF 'Long Tones' Phone setting" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Phone\Settings" name="ShowLongTones" type="dword" default="0">
       <value>1</value>
     </entry>
   </tweak>
-  <tweak category="Network" name="Enable Data Sense WiFI hotspots" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Data Sense" name="DSEnabled" type="dword" default="0">
+  <tweak category="Cell" name="Show status while sending SMS/MMS messages" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Messaging\GlobalSettings" name="ShowSendingStatus" type="dword" default="0">
       <value>1</value>
     </entry>
   </tweak>
-  <tweak category="User Interface" name="Disable Start Menu Letters" type="toggle" reboot="true">
-    <entry path="HKLM\Software\Microsoft\Shell\Start" name="GroupingThreshold" type="dword" default="45" comparer="&gt;">
-      <value>1000</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Allow disabling camera shutter sound" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Photos\OEM" name="ShutterSoundUnlocked" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
+
   <tweak category="Network" name="Enable WiFi static IP on Windows Phone 8" type="toggle">
     <entry path="HKLM\SYSTEM\ControlSet001\services\WiFiConnSvc\Parameters\Config" name="EnableStaticIP" type="dword" default="0">
       <value>1</value>
@@ -328,84 +493,9 @@
       <value>1</value>
     </entry>
   </tweak>
-  <tweak category="Cell" name="Enable SIM Contacts in People" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Contacts\Sim" name="EnableSIMAddressBookAndExport" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Disable USB Control Panel" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Shell\USB" name="DisableUSBControlPanel" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Notify on weak charger" type="toggle">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\USB" name="NotifyOnWeakCharger" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Enable soft Back, Start and Search buttons" type="toggle">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="SoftwareModeEnabled" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Enable swipe up to hide on soft navbar" type="toggle">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsSwipeUpToHideEnabled" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Recent people in people hub" type="input">
-    <entry path="HKLM\Software\Microsoft\Pim\RecentList\8" name="MaxSize" type="dword" default="8" />
-  </tweak>
-  <tweak category="System" name="Screen timeout (on battery)" type="enum" reboot="true">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\Timeouts" name="DCUserIdle" type="dword">
-      <value name="30 seconds">1e</value>
-      <value name="1 minute">3c</value>
-      <value name="3 minutes">b4</value>
-      <value name="5 minutes">12c</value>
-      <value name="15 minutes">384</value>
-      <value name="30 minutes">708</value>
-      <value name="Never">0</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Screen timeout (when charging)" type="enum" reboot="true">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\Timeouts" name="ACUserIdle" type="dword">
-      <value name="30 seconds">1e</value>
-      <value name="1 minute">3c</value>
-      <value name="3 minutes">b4</value>
-      <value name="5 minutes">12c</value>
-      <value name="15 minutes">384</value>
-      <value name="30 minutes">708</value>
-      <value name="Never">0</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Limit volume on reboot" type="toggle" reboot="true">
-    <entry path="HKLM\Software\OEM\VolumeLimit" name="EnableVolumeLimit" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Volume limit on reboot" type="input">
-    <entry path="HKLM\Software\OEM\VolumeLimit" name="VolumeLimit" type="dword" min="0" max="1E" default="19">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Start key wakes up the screen" type="toggle" reboot="true">
-    <entry path="HKLM\System\Keyboard" name="EnableStartOnIdle" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Data Activity indicators" type="toggle" reboot="true">
-    <entry path="HKLM\Software\Microsoft\Shell\OEM\SystemTray" name="DataActivity" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
   <tweak category="Network" name="WLAN instead of WiFi string" type="toggle">
     <entry path="HKLM\Software\Microsoft\UIX\ProductFeatures" name="WiFiToWLAN" type="dword" default="0">
       <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="System" name="Disable backlight for the hardware buttons" type="toggle">
-    <entry path="HKLM\SOFTWARE\OEM\Nokia\Display\ColorAndLight" name="UserSettingKeyLightsEnabled" type="dword" default="1">
-      <value>0</value>
     </entry>
   </tweak>
   <tweak category="Network" name="Enable WiFi connection sound notifications" type="toggle">
@@ -416,38 +506,7 @@
       <value>0</value>
     </entry>
   </tweak>
-  <tweak category="System" name="Full FS access" type="toggle">
-    <entry path="HKLM\Software\microsoft\mtp" name="datastore" type="string" default="C:\Data\Users\PUBLIC">
-      <value>c:</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp" name="ObjectName" type="string" default=".\WPNONETWORK">
-      <value>LocalSystem</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp" name="Type" type="dword">
-      <value>10</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp" name="ServiceSidType" type="dword">
-      <value>1</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Data0" type="binary">
-      <value>7508bca3290b900c</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Data1" type="binary">
-      <value>0000000001000000</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="DataType0" type="dword">
-      <value>1</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="DataType1" type="dword">
-      <value>1</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Guid" type="binary">
-      <value>16287a2d5e0cfc459ce7570e5ecde9c9</value>
-    </entry>
-    <entry path="HKLM\System\ControlSet001\services\Mtp\TriggerInfo\0" name="Type" type="dword">
-      <value>7</value>
-    </entry>
-  </tweak>
+
   <tweak category="Misc" name="Enable IE hidden setting" description="Hidden IE setting 'Show Pictures Automatically' toggle" type="toggle">
     <entry path="HKLM\Software\Microsoft\Internet Explorer" name="Disable Display Inline Images" type="dword" default="0">
       <value>1</value>
@@ -463,6 +522,17 @@
       <value>1</value>
     </entry>
   </tweak>
+  <tweak category="Misc" name="IE easter egg" description="Apply tweak and type 'about:moz' in the IE address field (mostly useless)" type="toggle">
+    <entry path="HKLM\Software\Microsoft\Internet Explorer\Abouturls" name="moz" type="string" default="">
+      <value>res://mshtml.dll/about.moz</value>
+    </entry>
+  </tweak>
+  <tweak category="Misc" name="Unhide .DNG format in Camera settings" type="toggle">
+    <entry path="HKLM\SOFTWARE\OEM\Nokia\Camera\Barc" name="DNGDisabled" type="dword" default="1">
+      <value>0</value>
+    </entry>
+  </tweak>
+
   <tweak category="Device Info" name="Phone Manufacturer" type="input" description="Change Phone Manufacturer">
     <entry path="HKLM\SYSTEM\Platform\DeviceTargetingInfo" name="PhoneManufacturer" type="string" />
   </tweak>
@@ -483,65 +553,5 @@
   <tweak category="Device Info" name="Phone Mobile Operator Display Name" type="input" description="Change Phone Operator Display Name">
     <entry path="HKLM\SYSTEM\Platform\DeviceTargetingInfo" name="PhoneMobileOperatorDisplayName" type="string" />
   </tweak>
-  <tweak category="Misc" name="IE easter egg" description="Apply tweak and type 'about:moz' in the IE address field (mostly useless)" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Internet Explorer\Abouturls" name="moz" type="string" default="">
-      <value>res://mshtml.dll/about.moz</value>
-    </entry>
-  </tweak>
-  <tweak category="Cell" name="Unhide APN" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Cellular\MVSettings\IMSISpecific\Default\CellUX" name="HideAPN" type="dword" default="1">
-      <value>0</value>
-    </entry>
-  </tweak>
-  <tweak category="Cell" name="Unhide MMS APN" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Cellular\MVSettings\IMSISpecific\Default\CellUX" name="HideMMSAPN" type="dword" default="1">
-      <value>0</value>
-    </entry>
-  </tweak>
-  <tweak category="Cell" name="Hide SIM security UI" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Phone\Settings" name="HideSIMSecurityUI" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Enable Double Tap Off on soft navbar" type="toggle">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsDoubleTapOffEnabled" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Color or Black on soft navbar" type="toggle">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="Color" type="dword" default="0">
-      <value>2</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Enable Auto Hide on soft navbar" type="toggle">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsAutoHideEnabled" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Enable Hint on soft navbar" type="toggle">
-    <entry path="HKLM\SOFTWARE\Microsoft\Shell\NavigationBar" name="IsHintEnabled" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="User Interface" name="Change default accent colors" type="color">
-    <entry path="HKLM\Software\Microsoft\Windows\CurrentVersion\Control Panel\Theme\Themes\0\Accents\0" name="Color" type="dword" />
-  </tweak>
-  <tweak category="User Interface" name="Change default complementary colors" description="(for dual SIM phones only)" type="color">
-    <entry path="HKLM\Software\Microsoft\Windows\CurrentVersion\Control Panel\Theme\Themes\0\Accents\0" name="ComplementaryColor" type="dword" />
-  </tweak>
-  <tweak category="Cell" name="Unhide DTMF 'Long Tones' Phone setting" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Phone\Settings" name="ShowLongTones" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="Cell" name="Show status while sending SMS/MMS messages" type="toggle">
-    <entry path="HKLM\Software\Microsoft\Messaging\GlobalSettings" name="ShowSendingStatus" type="dword" default="0">
-      <value>1</value>
-    </entry>
-  </tweak>
-  <tweak category="Misc" name="Unhide .DNG format in Camera settings" type="toggle">
-    <entry path="HKLM\SOFTWARE\OEM\Nokia\Camera\Barc" name="DNGDisabled" type="dword" default="1">
-      <value>0</value>
-    </entry>
-  </tweak>
+
 </tweaks>
